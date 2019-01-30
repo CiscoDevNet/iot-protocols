@@ -1,6 +1,6 @@
 import paho.mqtt.client as mqtt
 
-broker_ip = "128.107.70.30" #external Broker when running local [mqtt.cisco.com]
+broker_ip = "broker.hivemq.com"
 broker_port = 1883
 city_topic = 'devnet/city/#'
 
