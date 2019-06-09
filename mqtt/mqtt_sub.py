@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 
 broker_ip = "broker.hivemq.com"
 broker_port = 1883
-city_topic = 'devnet/city/#'
+city_topic = "devnetzone/topic"
 
 class ReadMsg:
     def on_connect(self, master, obj, flags, rc):
